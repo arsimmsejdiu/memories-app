@@ -5,7 +5,7 @@ import { Container, AppBar, Typography, Grow, Grid } from "@material-ui/core";
 import { getPosts } from './actions/posts.action';
 import Posts from "./components/Posts/Posts";
 import Form from "./components/Form/Form";
-import memories from "./images/memories.png";
+import portfolio from "./images/resume.png";
 import useStyles from "./styles";
 
 const App = () => {
@@ -21,11 +21,11 @@ const App = () => {
     <Container maxWidth="lg">
       <AppBar className={classes.appBar} position="static" color="inherit">
         <Typography className={classes.heading} variant="h2" align="center">
-          Memories{" "}
+          Create Project Article{" "}
         </Typography>
         <img
           className={classes.image}
-          src={memories}
+          src={portfolio}
           alt="memories"
           height="60"
         />

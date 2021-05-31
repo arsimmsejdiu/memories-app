@@ -56,12 +56,12 @@ const Form = ({ currentId, setCurrentId }) => {
         onSubmit={handleSubmit}
       >
         <Typography variant="h6">
-          {currentId ? `Editing "${post.title}"` : "Creating a Memory"}
+          {currentId ? `Editing "${post.title}"` : "Creating Project Article"}
         </Typography>
         <TextField
           name="creator"
           variant="outlined"
-          label="Creator"
+          label="Url"
           fullWidth
           value={postData.creator}
           onChange={(e) =>
